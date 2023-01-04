@@ -373,7 +373,7 @@ header .first-header .heading-part .second-heading {
   border: 1px solid #000000;
   border-collapse: collapse;
 }
- th, td:first-child {
+ td:first-child {
   color:  #FFFF00;
 }
  tr:nth-child(even) {
