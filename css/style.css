@@ -32,12 +32,12 @@ h2 {
 }
 
 h2::selection {
-  color: #ffc72b;
-  background-color: #003091;
+  color: #4dc3ff;
+  background-color: #cc3399;
 }
 
 h1 + h2 {
-  color: #ffc72b;
+  color: #cc4400;
 }
 
 p {
@@ -100,6 +100,7 @@ header .first-header .heading-part {
   margin-top: 1em;
 }
 header .first-header .heading-part .first-heading {
+color:#333300;
   font-size: 2.5em;
   line-height: 1.25;
   font-family: 'notable';
@@ -484,7 +485,7 @@ footer {
   padding: 1em 3em;
 }
 
-.cookie {
+.cookies {
   position: fixed;
   bottom: 5%;
   right: 5%;
@@ -492,6 +493,7 @@ footer {
   padding: 3em;
   color: #ffffff;
   opacity: 50%;
+  z-index:9999;
 }
 @media only screen and (min-width: 1280px){
 .home-main .content-part .home-product .right-product-part img {
